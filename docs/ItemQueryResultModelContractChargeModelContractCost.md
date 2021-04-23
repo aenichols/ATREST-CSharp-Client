@@ -1,0 +1,9 @@
+# IO.Swagger.Model.ItemQueryResultModelContractChargeModelContractCost
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Item** | [**ContractChargeModel**](ContractChargeModel.md) |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

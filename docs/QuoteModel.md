@@ -1,0 +1,47 @@
+# IO.Swagger.Model.QuoteModel
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Id** | **long?** |  | [optional] 
+**ApprovalStatus** | **int?** |  | [optional] 
+**ApprovalStatusChangedByResourceID** | **int?** |  | [optional] 
+**ApprovalStatusChangedDate** | **DateTime?** |  | [optional] 
+**BillToLocationID** | **int?** |  | [optional] 
+**CalculateTaxSeparately** | **bool?** |  | [optional] 
+**Comment** | **string** |  | [optional] 
+**CompanyID** | **int?** |  | [optional] 
+**ContactID** | **int?** |  | [optional] 
+**CreateDate** | **DateTime?** |  | [optional] 
+**CreatorResourceID** | **int?** |  | [optional] 
+**Description** | **string** |  | [optional] 
+**EffectiveDate** | **DateTime?** |  | [optional] 
+**ExpirationDate** | **DateTime?** |  | [optional] 
+**ExtApprovalContactResponse** | **int?** |  | [optional] 
+**ExtApprovalResponseDate** | **DateTime?** |  | [optional] 
+**ExtApprovalResponseSignature** | **string** |  | [optional] 
+**ExternalQuoteNumber** | **string** |  | [optional] 
+**GroupByID** | **int?** |  | [optional] 
+**ImpersonatorCreatorResourceID** | **int?** |  | [optional] 
+**IsActive** | **bool?** |  | [optional] 
+**LastActivityDate** | **DateTime?** |  | [optional] 
+**LastModifiedBy** | **int?** |  | [optional] 
+**Name** | **string** |  | [optional] 
+**OpportunityID** | **int?** |  | [optional] 
+**PaymentTerm** | **int?** |  | [optional] 
+**PaymentType** | **int?** |  | [optional] 
+**PrimaryQuote** | **bool?** |  | [optional] 
+**ProposalProjectID** | **int?** |  | [optional] 
+**PurchaseOrderNumber** | **string** |  | [optional] 
+**QuoteNumber** | **int?** |  | [optional] 
+**QuoteTemplateID** | **int?** |  | [optional] 
+**ShippingType** | **int?** |  | [optional] 
+**ShipToLocationID** | **int?** |  | [optional] 
+**ShowEachTaxInGroup** | **bool?** |  | [optional] 
+**ShowTaxCategory** | **bool?** |  | [optional] 
+**SoldToLocationID** | **int?** |  | [optional] 
+**TaxRegionID** | **int?** |  | [optional] 
+**UserDefinedFields** | [**List&lt;UserDefinedField&gt;**](UserDefinedField.md) |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

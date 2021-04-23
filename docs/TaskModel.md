@@ -1,0 +1,45 @@
+# IO.Swagger.Model.TaskModel
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Id** | **long?** |  | [optional] 
+**AssignedResourceID** | **int?** |  | [optional] 
+**AssignedResourceRoleID** | **int?** |  | [optional] 
+**BillingCodeID** | **int?** |  | [optional] 
+**CanClientPortalUserCompleteTask** | **bool?** |  | [optional] 
+**CompanyLocationID** | **int?** |  | [optional] 
+**CompletedByResourceID** | **int?** |  | [optional] 
+**CompletedByType** | **int?** |  | [optional] 
+**CompletedDateTime** | **DateTime?** |  | [optional] 
+**CreateDateTime** | **DateTime?** |  | [optional] 
+**CreatorResourceID** | **int?** |  | [optional] 
+**CreatorType** | **int?** |  | [optional] 
+**DepartmentID** | **int?** |  | [optional] 
+**Description** | **string** |  | [optional] 
+**EndDateTime** | **DateTime?** |  | [optional] 
+**EstimatedHours** | **double?** |  | [optional] 
+**ExternalID** | **string** |  | [optional] 
+**HoursToBeScheduled** | **double?** |  | [optional] 
+**IsTaskBillable** | **bool?** |  | [optional] 
+**IsVisibleInClientPortal** | **bool?** |  | [optional] 
+**LastActivityDateTime** | **DateTime?** |  | [optional] 
+**LastActivityPersonType** | **int?** |  | [optional] 
+**LastActivityResourceID** | **int?** |  | [optional] 
+**PhaseID** | **int?** |  | [optional] 
+**Priority** | **int?** |  | [optional] 
+**PriorityLabel** | **int?** |  | [optional] 
+**ProjectID** | **int?** |  | [optional] 
+**PurchaseOrderNumber** | **string** |  | [optional] 
+**RemainingHours** | **double?** |  | [optional] 
+**StartDateTime** | **DateTime?** |  | [optional] 
+**Status** | **int?** |  | [optional] 
+**TaskCategoryID** | **int?** |  | [optional] 
+**TaskNumber** | **string** |  | [optional] 
+**TaskType** | **int?** |  | [optional] 
+**Title** | **string** |  | [optional] 
+**SoapParentPropertyId** | [**ExpressionFuncTaskInt64**](ExpressionFuncTaskInt64.md) |  | [optional] 
+**UserDefinedFields** | [**List&lt;UserDefinedField&gt;**](UserDefinedField.md) |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

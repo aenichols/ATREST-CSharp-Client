@@ -1,0 +1,25 @@
+# IO.Swagger.Model.AttachmentInfoModel
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Id** | **long?** |  | [optional] 
+**AttachDate** | **DateTime?** |  | [optional] 
+**AttachedByContactID** | **long?** |  | [optional] 
+**AttachedByResourceID** | **long?** |  | [optional] 
+**AttachmentType** | **string** |  | [optional] 
+**ContentType** | **string** |  | [optional] 
+**CreatorType** | **int?** |  | [optional] 
+**FileSize** | **double?** |  | [optional] 
+**FullPath** | **string** |  | [optional] 
+**ImpersonatorCreatorResourceID** | **int?** |  | [optional] 
+**OpportunityID** | **long?** |  | [optional] 
+**ParentID** | **long?** |  | [optional] 
+**ParentType** | **int?** |  | [optional] 
+**Publish** | **int?** |  | [optional] 
+**Title** | **string** |  | [optional] 
+**SoapParentPropertyId** | **long?** |  | [optional] 
+**UserDefinedFields** | [**List&lt;UserDefinedField&gt;**](UserDefinedField.md) |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
