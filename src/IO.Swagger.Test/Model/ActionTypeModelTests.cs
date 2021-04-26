@@ -16,7 +16,7 @@ using System.Linq;
 using System.IO;
 using System.Collections.Generic;
 using IO.Swagger.Api;
-using IO.Swagger.Model;using Object = IO.Swagger.Model.Object;
+using IO.Swagger.Model;
 using IO.Swagger.Client;
 using System.Reflection;
 using Newtonsoft.Json;
@@ -34,7 +34,7 @@ namespace IO.Swagger.Test
     public class ActionTypeModelTests
     {
         // TODO uncomment below to declare an instance variable for ActionTypeModel
-        //private ActionTypeModel instance;
+        private ActionTypeModel instance;
 
         /// <summary>
         /// Setup before each test
@@ -43,7 +43,7 @@ namespace IO.Swagger.Test
         public void Init()
         {
             // TODO uncomment below to create an instance of ActionTypeModel
-            //instance = new ActionTypeModel();
+            instance = new ActionTypeModel();
         }
 
         /// <summary>
@@ -62,7 +62,7 @@ namespace IO.Swagger.Test
         public void ActionTypeModelInstanceTest()
         {
             // TODO uncomment below to test "IsInstanceOfType" ActionTypeModel
-            //Assert.IsInstanceOfType<ActionTypeModel> (instance, "variable 'instance' is a ActionTypeModel");
+            Assert.IsInstanceOf<ActionTypeModel>(instance, "variable 'instance' is a ActionTypeModel");
         }
 
 
